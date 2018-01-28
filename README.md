@@ -1,0 +1,2 @@
+# Chldsfty
+This android app is designed to keep track of child user’s . It makes use of the device’s  accelerometer sensors and in case of an emergency the device is dropped by the child the mobile phone automatically sends it’s GPS location to two predefined numbers and calls one number. The same can also be done manually by the child themselves. So, by making this app we are not only providing a cure but also preventing child abuse by monitoring them.
