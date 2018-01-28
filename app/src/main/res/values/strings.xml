@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SPARE the ROD and SAVE the CHILD</string>
+    <string name="title_activity_alert_old_age">AlertOldAge</string>
+    <string name="radio_male">OldAge</string>
+    <string name="radio_female">Child</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

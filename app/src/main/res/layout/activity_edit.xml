@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditActivity"
+    android:background="@drawable/chabuse"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="USER INFO"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter your Name :"
+            android:paddingBottom="10dp"
+            android:textColor="#4B0082">
+
+            <requestFocus />
+        </EditText>
+        <EditText
+            android:id="@+id/age"
+            android:paddingBottom="10dp"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter your age"/>
+        <EditText
+            android:id="@+id/sex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:hint="M/F"/>
+        <EditText
+            android:id="@+id/height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:inputType="number"
+            android:hint="height"/>
+
+        <EditText
+            android:id="@+id/weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:inputType="number"
+            android:hint="Weight"/>
+
+        <EditText
+            android:id="@+id/ph1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="10dp"
+            android:ems="10"
+            android:inputType="phone"
+            android:hint="Ph no :"
+            android:textColor="#800517"/>
+        <EditText
+            android:id="@+id/ph2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Ph no :"
+            android:inputType="phone"
+            android:paddingBottom="10dp"
+            android:textColor="#800517"/>
+        <RadioGroup
+            android:id="@+id/radioSex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/radio_female" />
+
+        </RadioGroup>
+        <Button
+            android:id="@+id/btton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="submit"
+            android:paddingBottom="10dp"
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
